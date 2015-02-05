@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC5E235D1A83F661000F28F1 /* photosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E235C1A83F661000F28F1 /* photosViewController.swift */; };
 		FC8D2E0B1A8202B10031B84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D2E0A1A8202B10031B84C /* AppDelegate.swift */; };
 		FC8D2E0D1A8202B10031B84C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D2E0C1A8202B10031B84C /* ViewController.swift */; };
 		FC8D2E101A8202B10031B84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8D2E0E1A8202B10031B84C /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC5E235C1A83F661000F28F1 /* photosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photosViewController.swift; sourceTree = "<group>"; };
 		FC8D2E051A8202B10031B84C /* fakeDropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fakeDropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8D2E091A8202B10031B84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC8D2E0A1A8202B10031B84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +44,8 @@
 		FC8D2E201A8202B10031B84C /* fakeDropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakeDropboxTests.swift; sourceTree = "<group>"; };
 		FC8D2E331A8227510031B84C /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TermsViewController.swift; path = ../TermsViewController.swift; sourceTree = "<group>"; };
 		FCDAB2E41A82D6C2006E43B1 /* createAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createAccountViewController.swift; sourceTree = SOURCE_ROOT; };
-		FCDAB2E61A82DA5B006E43B1 /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
-		FCDAB2E81A82DE4B006E43B1 /* scrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrollViewController.swift; sourceTree = "<group>"; };
+		FCDAB2E61A82DA5B006E43B1 /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = signInViewController.swift; path = ../signInViewController.swift; sourceTree = "<group>"; };
+		FCDAB2E81A82DE4B006E43B1 /* scrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = scrollViewController.swift; path = ../scrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +69,6 @@
 		FC8D2DFC1A8202B10031B84C = {
 			isa = PBXGroup;
 			children = (
-				FCDAB2E61A82DA5B006E43B1 /* signInViewController.swift */,
-				FCDAB2E81A82DE4B006E43B1 /* scrollViewController.swift */,
 				FC8D2E071A8202B10031B84C /* fakeDropbox */,
 				FC8D2E1D1A8202B10031B84C /* fakeDropboxTests */,
 				FC8D2E061A8202B10031B84C /* Products */,
@@ -88,9 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				FC8D2E0A1A8202B10031B84C /* AppDelegate.swift */,
+				FCDAB2E61A82DA5B006E43B1 /* signInViewController.swift */,
+				FCDAB2E81A82DE4B006E43B1 /* scrollViewController.swift */,
 				FC8D2E331A8227510031B84C /* TermsViewController.swift */,
 				FC8D2E0C1A8202B10031B84C /* ViewController.swift */,
 				FC8D2E0E1A8202B10031B84C /* Main.storyboard */,
+				FC5E235C1A83F661000F28F1 /* photosViewController.swift */,
 				FCDAB2E41A82D6C2006E43B1 /* createAccountViewController.swift */,
 				FC8D2E111A8202B10031B84C /* Images.xcassets */,
 				FC8D2E131A8202B10031B84C /* LaunchScreen.xib */,
@@ -227,6 +230,7 @@
 				FCDAB2E51A82D6C2006E43B1 /* createAccountViewController.swift in Sources */,
 				FC8D2E0D1A8202B10031B84C /* ViewController.swift in Sources */,
 				FC8D2E341A8227510031B84C /* TermsViewController.swift in Sources */,
+				FC5E235D1A83F661000F28F1 /* photosViewController.swift in Sources */,
 				FC8D2E0B1A8202B10031B84C /* AppDelegate.swift in Sources */,
 				FCDAB2E71A82DA5B006E43B1 /* signInViewController.swift in Sources */,
 				FCDAB2E91A82DE4B006E43B1 /* scrollViewController.swift in Sources */,
@@ -352,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = fakeDropbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -362,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = fakeDropbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -484,7 +484,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty_favorites" id="PDN-Ri-Q3M">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="454"/>
+                                <rect key="frame" x="0.0" y="65" width="320" height="454"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -521,6 +521,7 @@
         <scene sceneID="2xF-ae-m0d">
             <objects>
                 <tabBarController id="2hD-J8-a0K" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="4n7-NS-nSZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -867,6 +868,7 @@
         <scene sceneID="qj0-lJ-TXC">
             <objects>
                 <tabBarController id="oYz-IQ-St5" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="TUM-M9-UMX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>

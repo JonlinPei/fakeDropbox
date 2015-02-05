@@ -13,6 +13,10 @@
 		FC8D2E121A8202B10031B84C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8D2E111A8202B10031B84C /* Images.xcassets */; };
 		FC8D2E151A8202B10031B84C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8D2E131A8202B10031B84C /* LaunchScreen.xib */; };
 		FC8D2E211A8202B10031B84C /* fakeDropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D2E201A8202B10031B84C /* fakeDropboxTests.swift */; };
+		FC8D2E341A8227510031B84C /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D2E331A8227510031B84C /* TermsViewController.swift */; };
+		FCDAB2E51A82D6C2006E43B1 /* createAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB2E41A82D6C2006E43B1 /* createAccountViewController.swift */; };
+		FCDAB2E71A82DA5B006E43B1 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB2E61A82DA5B006E43B1 /* signInViewController.swift */; };
+		FCDAB2E91A82DE4B006E43B1 /* scrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB2E81A82DE4B006E43B1 /* scrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		FC8D2E1A1A8202B10031B84C /* fakeDropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fakeDropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8D2E1F1A8202B10031B84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC8D2E201A8202B10031B84C /* fakeDropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakeDropboxTests.swift; sourceTree = "<group>"; };
+		FC8D2E331A8227510031B84C /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TermsViewController.swift; path = ../TermsViewController.swift; sourceTree = "<group>"; };
+		FCDAB2E41A82D6C2006E43B1 /* createAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createAccountViewController.swift; sourceTree = SOURCE_ROOT; };
+		FCDAB2E61A82DA5B006E43B1 /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		FCDAB2E81A82DE4B006E43B1 /* scrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,8 @@
 		FC8D2DFC1A8202B10031B84C = {
 			isa = PBXGroup;
 			children = (
+				FCDAB2E61A82DA5B006E43B1 /* signInViewController.swift */,
+				FCDAB2E81A82DE4B006E43B1 /* scrollViewController.swift */,
 				FC8D2E071A8202B10031B84C /* fakeDropbox */,
 				FC8D2E1D1A8202B10031B84C /* fakeDropboxTests */,
 				FC8D2E061A8202B10031B84C /* Products */,
@@ -78,8 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				FC8D2E0A1A8202B10031B84C /* AppDelegate.swift */,
+				FC8D2E331A8227510031B84C /* TermsViewController.swift */,
 				FC8D2E0C1A8202B10031B84C /* ViewController.swift */,
 				FC8D2E0E1A8202B10031B84C /* Main.storyboard */,
+				FCDAB2E41A82D6C2006E43B1 /* createAccountViewController.swift */,
 				FC8D2E111A8202B10031B84C /* Images.xcassets */,
 				FC8D2E131A8202B10031B84C /* LaunchScreen.xib */,
 				FC8D2E081A8202B10031B84C /* Supporting Files */,
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDAB2E51A82D6C2006E43B1 /* createAccountViewController.swift in Sources */,
 				FC8D2E0D1A8202B10031B84C /* ViewController.swift in Sources */,
+				FC8D2E341A8227510031B84C /* TermsViewController.swift in Sources */,
 				FC8D2E0B1A8202B10031B84C /* AppDelegate.swift in Sources */,
+				FCDAB2E71A82DA5B006E43B1 /* signInViewController.swift in Sources */,
+				FCDAB2E91A82DE4B006E43B1 /* scrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +421,7 @@
 				FC8D2E261A8202B10031B84C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC8D2E271A8202B10031B84C /* Build configuration list for PBXNativeTarget "fakeDropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				FC8D2E291A8202B10031B84C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
